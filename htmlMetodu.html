@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-3.5.1.min.js"></script>
+    <script>
+
+
+
+        $(document).ready(function () {
+
+
+            $(".getirBtn").click(function () {
+
+              var data = $(".container").html();
+              alert(data);
+            })
+            $(".ekleBtn").click(function () {
+
+                $(".container2").html("<p>Test teset sete se t</p>")
+
+
+            })
+        })
+    </script>
+</head>
+<body>
+<button class="ekleBtn">Ekle</button>
+<button class="getirBtn">Getir</button>
+<div class="container"><p>LİUEANHPUİEN KUİEHKhauh pkieauenhik uie aknhue KUİ PNHAK uiehkna deneme test falan filan </p>
+    <a href="#">sil</a></div>
+<div class="container2"></div>
+</body>
+</html>
